@@ -1,0 +1,27 @@
+﻿2021-10-30T23:29:14.0533120-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-10-30T23:29:14.0534631-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.7 in Framework net50 in x64 mode execution started
+2021-10-30T23:29:14.0534659-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\SpecFlowProject2\bin\Debug\net5.0\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-10-30T23:29:14.0550068-05:00;VSTestExecutionThread;Info;Current UserName: 'giuse', MachineName: 'LAPTOP-14S894K7'
+2021-10-30T23:29:14.0764675-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\SpecFlowProject2\bin\Debug\net5.0\SpecFlowProject2.dll
+2021-10-30T23:29:14.0766433-05:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer-backend\TestResults" (default)
+2021-10-30T23:29:14.0766857-05:00;VSTestExecutionThread;Info;Profile: 
+2021-10-30T23:29:14.1097508-05:00;VSTestExecutionThread;Info;Log file path: C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer-backend\TestResults\Unnamed project__2021-10-30T232914.log
+2021-10-30T23:29:14.1127091-05:00;Thread#12;Info;Checking activation
+2021-10-30T23:29:18.0238030-05:00;Thread#12;Error;****************************************************************************************************************
+2021-10-30T23:29:18.0240434-05:00;Thread#12;Error;*                                           SpecFlow+ Runner                                                   *
+2021-10-30T23:29:18.0241093-05:00;Thread#12;Error;****************************************************************************************************************
+2021-10-30T23:29:18.0242475-05:00;Thread#12;Error;Please sign-up for your free SpecFlow account or sign-in with your already existing account here:
+2021-10-30T23:29:18.0243351-05:00;Thread#12;Error;https://account.specflow.org/clientactivation/welcome/Runner/EB619B7974574FD4A1FE47C2E65C102497A704C74DF5AEC72111F31ABB90C9F2995B8880/NotActivatedYet
+2021-10-30T23:29:18.0243883-05:00;Thread#12;Error;to execute your Scenarios again.
+2021-10-30T23:29:18.0244869-05:00;Thread#12;Error;If you are reading this message on a build agent, we couldn't recognize the agent.
+2021-10-30T23:29:18.0245569-05:00;Thread#12;Error;Please get in touch with us at support@specflow.org.
+2021-10-30T23:29:18.0246536-05:00;Thread#12;Error;****************************************************************************************************************
+2021-10-30T23:29:18.0276615-05:00;Thread#12;Error;No tests executed (activation needed)
+2021-10-30T23:29:18.0380084-05:00:Total: 0
+2021-10-30T23:29:18.0392703-05:00:Succeeded: 0
+2021-10-30T23:29:18.0394864-05:00:Ignored: 0
+2021-10-30T23:29:18.0396548-05:00:Pending: 0
+2021-10-30T23:29:18.0402678-05:00:Skipped: 0
+2021-10-30T23:29:18.0404681-05:00:Failed: 0
+2021-10-30T23:29:18.0433076-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

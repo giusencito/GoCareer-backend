@@ -1,0 +1,24 @@
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Domain\bin\Debug\net5.0\Gocareer.Domain.deps.json
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Domain\bin\Debug\net5.0\Gocareer.Domain.dll
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Domain\bin\Debug\net5.0\ref\Gocareer.Domain.dll
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Domain\bin\Debug\net5.0\Gocareer.Domain.pdb
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Domain\obj\Debug\net5.0\Gocareer.Domain.csprojAssemblyReference.cache
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Domain\obj\Debug\net5.0\Gocareer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Domain\obj\Debug\net5.0\Gocareer.Domain.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Domain\obj\Debug\net5.0\Gocareer.Domain.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Domain\obj\Debug\net5.0\Gocareer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Domain\obj\Debug\net5.0\Gocareer.Domain.dll
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Domain\obj\Debug\net5.0\ref\Gocareer.Domain.dll
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Domain\obj\Debug\net5.0\Gocareer.Domain.pdb
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Domain\bin\Debug\net5.0\Gocareer.Domain.deps.json
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Domain\bin\Debug\net5.0\Gocareer.Domain.dll
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Domain\bin\Debug\net5.0\ref\Gocareer.Domain.dll
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Domain\bin\Debug\net5.0\Gocareer.Domain.pdb
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Domain\obj\Debug\net5.0\Gocareer.Domain.csproj.AssemblyReference.cache
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Domain\obj\Debug\net5.0\Gocareer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Domain\obj\Debug\net5.0\Gocareer.Domain.AssemblyInfoInputs.cache
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Domain\obj\Debug\net5.0\Gocareer.Domain.AssemblyInfo.cs
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Domain\obj\Debug\net5.0\Gocareer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Domain\obj\Debug\net5.0\Gocareer.Domain.dll
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Domain\obj\Debug\net5.0\ref\Gocareer.Domain.dll
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Domain\obj\Debug\net5.0\Gocareer.Domain.pdb

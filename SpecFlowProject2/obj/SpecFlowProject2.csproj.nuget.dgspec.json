@@ -1,0 +1,413 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\SpecFlowProject2\\SpecFlowProject2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer-backend\\Gocareer-backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer-backend\\Gocareer-backend.csproj",
+        "projectName": "Gocareer-backend",
+        "projectPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer-backend\\Gocareer-backend.csproj",
+        "packagesPath": "C:\\Users\\giuse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer-backend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\giuse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Domain\\Gocareer.Domain.csproj": {
+                "projectPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Domain\\Gocareer.Domain.csproj"
+              },
+              "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Infrastructure\\Gocareer.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Infrastructure\\Gocareer.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Domain\\Gocareer.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Domain\\Gocareer.Domain.csproj",
+        "projectName": "Gocareer.Domain",
+        "projectPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Domain\\Gocareer.Domain.csproj",
+        "packagesPath": "C:\\Users\\giuse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\giuse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Infrastructure\\Gocareer.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Infrastructure\\Gocareer.Infrastructure.csproj",
+        "projectName": "Gocareer.Infrastructure",
+        "projectPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Infrastructure\\Gocareer.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\giuse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\giuse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Domain\\Gocareer.Domain.csproj": {
+                "projectPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Domain\\Gocareer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Testing\\Gocareer.Testing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Testing\\Gocareer.Testing.csproj",
+        "projectName": "Gocareer.Testing",
+        "projectPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Testing\\Gocareer.Testing.csproj",
+        "packagesPath": "C:\\Users\\giuse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Testing\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\giuse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer-backend\\Gocareer-backend.csproj": {
+                "projectPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer-backend\\Gocareer-backend.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EntityFrameworkCoreMock.Moq": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\SpecFlowProject2\\SpecFlowProject2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\SpecFlowProject2\\SpecFlowProject2.csproj",
+        "projectName": "SpecFlowProject2",
+        "projectPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\SpecFlowProject2\\SpecFlowProject2.csproj",
+        "packagesPath": "C:\\Users\\giuse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\SpecFlowProject2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\giuse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer-backend\\Gocareer-backend.csproj": {
+                "projectPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer-backend\\Gocareer-backend.csproj"
+              },
+              "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Domain\\Gocareer.Domain.csproj": {
+                "projectPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Domain\\Gocareer.Domain.csproj"
+              },
+              "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Infrastructure\\Gocareer.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Infrastructure\\Gocareer.Infrastructure.csproj"
+              },
+              "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Testing\\Gocareer.Testing.csproj": {
+                "projectPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\evolución de software\\Gocareer.Testing\\Gocareer.Testing.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.22, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.5, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.9.22, )"
+            },
+            "SpecRun.SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

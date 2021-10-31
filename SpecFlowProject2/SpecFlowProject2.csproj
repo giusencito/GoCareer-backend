@@ -1,0 +1,100 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.7" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.0.1" />
+    <PackageReference Include="SpecFlow" Version="3.9.22" />
+    <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.5" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.9.22" />
+
+    
+    <PackageReference Include="SpecRun.SpecFlow" Version="3.9.7" />
+    
+
+    
+
+    
+
+    
+
+    
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Drivers\" />
+    <Folder Include="Hooks\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gocareer-backend\Gocareer-backend.csproj" />
+    <ProjectReference Include="..\Gocareer.Domain\Gocareer.Domain.csproj" />
+    <ProjectReference Include="..\Gocareer.Infrastructure\Gocareer.Infrastructure.csproj" />
+    <ProjectReference Include="..\Gocareer.Testing\Gocareer.Testing.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Features\US02.feature.cs">
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Update="Features\US04.feature.cs">
+      <DesignTime>True</DesignTime>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <SpecFlowFeatureFiles Update="Features\US01.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>US01.feature.cs</LastGenOutput>
+      <Generator Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">MSBuild generation</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Features\US02.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>US02.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Features\US03.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>US03.feature.cs</LastGenOutput>
+      <Generator Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">MSBuild generation</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Features\US04.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>US04.feature.cs</LastGenOutput>
+      <Generator Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">MSBuild generation</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Features\US05.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <Generator Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">MSBuild generation</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Features\US06.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <Generator Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">MSBuild generation</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Features\US07.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>US07.feature.cs</LastGenOutput>
+      <Generator Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">MSBuild generation</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Features\US08.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <Generator Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">MSBuild generation</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Features\US09.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <Generator Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">MSBuild generation</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Features\US10.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <Generator Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">MSBuild generation</Generator>
+    </SpecFlowFeatureFiles>
+  </ItemGroup>
+
+</Project>

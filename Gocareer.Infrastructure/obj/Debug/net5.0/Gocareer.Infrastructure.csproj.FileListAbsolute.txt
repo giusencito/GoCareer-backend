@@ -1,0 +1,36 @@
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\bin\Debug\net5.0\Gocareer.Infrastructure.deps.json
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\bin\Debug\net5.0\Gocareer.Infrastructure.runtimeconfig.json
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\bin\Debug\net5.0\Gocareer.Infrastructure.runtimeconfig.dev.json
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\bin\Debug\net5.0\Gocareer.Infrastructure.dll
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\bin\Debug\net5.0\ref\Gocareer.Infrastructure.dll
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\bin\Debug\net5.0\Gocareer.Infrastructure.pdb
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\bin\Debug\net5.0\Gocareer.Domain.dll
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\bin\Debug\net5.0\Gocareer.Domain.pdb
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.csprojAssemblyReference.cache
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.csproj.CopyComplete
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.dll
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\obj\Debug\net5.0\ref\Gocareer.Infrastructure.dll
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.pdb
+C:\Users\USUARIO\Documents\GitHub\Gocareer-backend\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.genruntimeconfig.cache
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\bin\Debug\net5.0\Gocareer.Infrastructure.deps.json
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\bin\Debug\net5.0\Gocareer.Infrastructure.runtimeconfig.json
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\bin\Debug\net5.0\Gocareer.Infrastructure.runtimeconfig.dev.json
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\bin\Debug\net5.0\Gocareer.Infrastructure.dll
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\bin\Debug\net5.0\ref\Gocareer.Infrastructure.dll
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\bin\Debug\net5.0\Gocareer.Infrastructure.pdb
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\bin\Debug\net5.0\Gocareer.Domain.dll
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\bin\Debug\net5.0\Gocareer.Domain.pdb
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.AssemblyInfo.cs
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.csproj.CopyComplete
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.dll
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\obj\Debug\net5.0\ref\Gocareer.Infrastructure.dll
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.pdb
+C:\Users\giuse\OneDrive\Documentos Giusen\evolución de software\Gocareer.Infrastructure\obj\Debug\net5.0\Gocareer.Infrastructure.genruntimeconfig.cache
