@@ -5812,19 +5812,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\giuse\\.nuget\\packages\\": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\Gocareer-backend\\Gocareer.Infrastructure\\Gocareer.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\GitHub\\Gocareer-backend\\Gocareer.Infrastructure\\Gocareer.Infrastructure.csproj",
       "projectName": "Gocareer.Infrastructure",
-      "projectPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\Gocareer-backend\\Gocareer.Infrastructure\\Gocareer.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\giuse\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\Gocareer-backend\\Gocareer.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\Gocareer-backend\\Gocareer.Infrastructure\\Gocareer.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\Gocareer-backend\\Gocareer.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\giuse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5838,8 +5838,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\Gocareer-backend\\Gocareer.Domain\\Gocareer.Domain.csproj": {
-              "projectPath": "C:\\Users\\giuse\\OneDrive\\Documentos Giusen\\Gocareer-backend\\Gocareer.Domain\\Gocareer.Domain.csproj"
+            "C:\\Users\\USUARIO\\Documents\\GitHub\\Gocareer-backend\\Gocareer.Domain\\Gocareer.Domain.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\Gocareer-backend\\Gocareer.Domain\\Gocareer.Domain.csproj"
             }
           }
         }
@@ -5880,7 +5880,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
