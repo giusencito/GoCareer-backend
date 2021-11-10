@@ -11,7 +11,7 @@ using Gocareer_backend.Models.Message;
 
 namespace Gocareer_backend.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api")]
     [ApiController]
     public class MessagesController : ControllerBase
     {
@@ -23,7 +23,7 @@ namespace Gocareer_backend.Controllers
         }
 
         // GET: api/Messages
-        [HttpGet]
+        [HttpGet("Messages")]
         public async Task<IEnumerable<MessageModel>> GetMessages()
         {
             var messageList = await _context.Messages.ToListAsync();
@@ -39,7 +39,7 @@ namespace Gocareer_backend.Controllers
         }
 
         // GET: api/Messages/5
-        [HttpGet("{id}")]
+        [HttpGet("Messages/{id}")]
         public async Task<IActionResult> GetMessageById(int id)
         {
             var message = await _context.Messages.FindAsync(id);
@@ -57,40 +57,69 @@ namespace Gocareer_backend.Controllers
             });
         }
 
+        [HttpGet("Especialists/{EspecialistId}/Messages")]
+        public async Task<ActionResult<Message>> GetMessagesByEspecialistId(int EspecialistId)
+        {
+            IEnumerable<Message> messageList = await _context.Messages.ToListAsync();
+
+            var MessageListByEspecialistId = messageList.ToList().Where(d => d.EspecialistId == EspecialistId);
+
+            if (MessageListByEspecialistId.Count() > 0)
+            {
+                return Ok(MessageListByEspecialistId.Select(d => new MessageModel
+                {
+                    Messageid = d.Messageid,
+                    MessageDescription = d.MessageDescription,
+                    answer = d.answer,
+                    UserId = d.UserId,
+                    EspecialistId = d.EspecialistId
+
+                }));
+            }
+            else
+            {
+                return Ok("No hay message(s) para el Especialist.");
+            }
+        }
+
         // PUT: api/Messages/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> PutMessage(int id, Message message)
-        //{
-        //    if (id != message.Messageid)
-        //    {
-        //        return BadRequest();
-        //    }
+        [HttpPut("Messages/{id}")]
+        public async Task<IActionResult> PutMessage(int id, [FromBody] UpdateMessageModel model)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-        //    _context.Entry(message).State = EntityState.Modified;
+            if (id <= 0)
+                return BadRequest();
 
-        //    try
-        //    {
-        //        await _context.SaveChangesAsync();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!MessageExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
+            var variable = await _context.Messages.FirstOrDefaultAsync(d => d.Messageid == id);
 
-        //    return NoContent();
-        //}
+            if (variable == null)
+                return NotFound();
+
+
+
+            variable.MessageDescription = model.MessageDescription;
+            variable.answer = model.answer;
+            variable.UserId = model.UserId;
+            variable.EspecialistId = model.EspecialistId;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+            return Ok(model);
+        }
 
         // POST: api/Messages
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
+        [HttpPost("Messages")]
         public async Task<IActionResult> PostMessage([FromBody] CreateMessageModel model)
         {
             if (!ModelState.IsValid)
@@ -117,7 +146,7 @@ namespace Gocareer_backend.Controllers
         }
 
         // DELETE: api/Messages/5
-        [HttpDelete("{id}")]
+        [HttpDelete("Messages/{id}")]
         public async Task<IActionResult> DeleteMessage(int id)
         {
             var existingMessage = await _context.Messages.FindAsync(id);
