@@ -98,12 +98,7 @@ namespace Gocareer_backend.Controllers
             if (variable == null)
                 return NotFound();
 
-
-
-            variable.MessageDescription = model.MessageDescription;
             variable.answer = model.answer;
-            variable.UserId = model.UserId;
-            variable.EspecialistId = model.EspecialistId;
 
             try
             {

@@ -7,9 +7,6 @@ namespace Gocareer_backend.Models.Message
 {
     public class UpdateMessageModel
     {
-        public string MessageDescription { set; get; }
         public string? answer { set; get; }
-        public int UserId { set; get; }
-        public int EspecialistId { set; get; }
     }
 }
