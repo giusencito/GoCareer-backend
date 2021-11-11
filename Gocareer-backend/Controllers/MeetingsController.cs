@@ -11,7 +11,7 @@ using Gocareer_backend.Models.Meeting;
 
 namespace Gocareer_backend.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api")]
     [ApiController]
     public class MeetingsController : ControllerBase
     {
@@ -23,7 +23,7 @@ namespace Gocareer_backend.Controllers
         }
 
         // GET: api/Meetings
-        [HttpGet]
+        [HttpGet("Meetings")]
         public async Task<IEnumerable<MeetingModel>> GetMeetings()
         {
             var meetingsList = await _context.Meetings.ToListAsync();
@@ -39,7 +39,7 @@ namespace Gocareer_backend.Controllers
         }
 
         // GET: api/Meetings/5
-        [HttpGet("{id}")]
+        [HttpGet("Meetings/{id}")]
         public async Task<IActionResult> GetMeetingByid(int id)
         {
             var meeting = await _context.Meetings.FindAsync(id);
@@ -55,6 +55,31 @@ namespace Gocareer_backend.Controllers
                 UserId = meeting.UserId,
                 EspecialistId = meeting.EspecialistId
             });
+        }
+
+        [HttpGet("Especialists/{EspecialistId}/Meetings")]
+        public async Task<ActionResult<Meeting>> GetMeetingsByEspecialistId(int EspecialistId)
+        {
+            IEnumerable<Meeting> meetingList = await _context.Meetings.ToListAsync();
+
+            var MeetingListByEspecialistId = meetingList.ToList().Where(d => d.EspecialistId == EspecialistId);
+
+            if (MeetingListByEspecialistId.Count() > 0)
+            {
+                return Ok(MeetingListByEspecialistId.Select(d => new MeetingModel
+                {
+                    MeetingId = d.MeetingId,
+                    Date = d.Date,
+                    Hour = d.Hour,
+                    UserId = d.UserId,
+                    EspecialistId = d.EspecialistId
+
+                }));
+            }
+            else
+            {
+                return Ok("No hay meeting(s) para el Especialist.");
+            }
         }
 
         // PUT: api/Meetings/5
@@ -90,7 +115,7 @@ namespace Gocareer_backend.Controllers
 
         // POST: api/Meetings
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
+        [HttpPost("Meetings")]
         public async Task<IActionResult> PostMeeting([FromBody] CreateMeeting model)
         {
             if (!ModelState.IsValid)
@@ -117,7 +142,7 @@ namespace Gocareer_backend.Controllers
         }
 
         // DELETE: api/Meetings/5
-        [HttpDelete("{id}")]
+        [HttpDelete("Meetings/{id}")]
         public async Task<IActionResult> DeleteMeeting(int id)
         {
             var existing = await _context.Meetings.FindAsync(id);

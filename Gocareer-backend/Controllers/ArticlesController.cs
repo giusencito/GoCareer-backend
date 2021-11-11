@@ -7,10 +7,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Gocareer.Domain;
 using Gocareer.Infrastructure;
-using Gocareer_backend.Models;
+using Gocareer_backend.Models.Article;
 namespace Gocareer_backend.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api")]
     [ApiController]
     public class ArticlesController : ControllerBase
     {
@@ -22,7 +22,7 @@ namespace Gocareer_backend.Controllers
         }
 
         // GET: api/Articles
-        [HttpGet]
+        [HttpGet("Articles")]
         public async Task<IEnumerable<ArticleModel>> GetArticles()
         {
             var articleList = await _context.Articles.ToListAsync();
@@ -38,7 +38,7 @@ namespace Gocareer_backend.Controllers
 
 
         // GET: api/Articles/5
-        [HttpGet("Career/{Careerid}/Articles")]
+        [HttpGet("Career/{careerId}/Articles")]
         public async Task<ActionResult<Article>> GetArticlesBySectionId(int careerId)
         {
             IEnumerable<Article> assignmentList = await _context.Articles.ToListAsync();
@@ -66,34 +66,33 @@ namespace Gocareer_backend.Controllers
 
         // PUT: api/Articles/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutArticle(int id, Article article)
-        {
-            if (id != article.Articleid)
-            {
-                return BadRequest();
-            }
+        //[HttpPut("Articles/{id}")]
+        //public async Task<IActionResult> PutArticle(int id, [FromBody] UpdateArticleModel model)
+        //{
+        //    if (!ModelState.IsValid)
+        //        return BadRequest(ModelState);
 
-            _context.Entry(article).State = EntityState.Modified;
+        //    if (id <= 0)
+        //        return BadRequest();
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ArticleExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+        //    var variable = await _context.Messages.FirstOrDefaultAsync(d => d.Messageid == id);
 
-            return NoContent();
-        }
+        //    if (variable == null)
+        //        return NotFound();
+
+        //    variable.answer = model.answer;
+
+        //    try
+        //    {
+        //        await _context.SaveChangesAsync();
+        //    }
+        //    catch (DbUpdateConcurrencyException ex)
+        //    {
+        //        return BadRequest(ex.Message);
+        //    }
+
+        //    return Ok(model);
+        //}
 
         // POST: api/Articles
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -132,7 +131,7 @@ namespace Gocareer_backend.Controllers
 
 
         // DELETE: api/Articles/5
-        [HttpDelete("{id}")]
+        [HttpDelete("Articles/{id}")]
         public async Task<IActionResult> DeleteArticle(int id)
         {
             var existingAssignment = await _context.Articles.FindAsync(id);

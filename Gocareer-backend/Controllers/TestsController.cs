@@ -11,7 +11,7 @@ using Gocareer_backend.Models.Test;
 
 namespace Gocareer_backend.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api")]
     [ApiController]
     public class TestsController : ControllerBase
     {
@@ -23,7 +23,7 @@ namespace Gocareer_backend.Controllers
         }
 
         // GET: api/Tests
-        [HttpGet]
+        [HttpGet("Tests")]
         public async Task<IEnumerable<TestModel>> GetTests()
         {
             var testList = await _context.Tests.ToListAsync();
@@ -38,7 +38,7 @@ namespace Gocareer_backend.Controllers
         }
 
         // GET: api/Tests/5
-        [HttpGet("{id}")]
+        [HttpGet("Tests/{id}")]
         public async Task<IActionResult> GetTestById(int id)
         {
             var test = await _context.Tests.FindAsync(id);
@@ -55,9 +55,33 @@ namespace Gocareer_backend.Controllers
             });
         }
 
+        [HttpGet("Personalized/{personalized}/Tests")]
+        public async Task<ActionResult<Test>> GetTestsByPersonalized(bool personalized)
+        {
+            IEnumerable<Test> testList = await _context.Tests.ToListAsync();
+
+            var TestListByPersonalized = testList.ToList().Where(d => d.Personalized == personalized);
+
+            if (TestListByPersonalized.Count() > 0)
+            {
+                return Ok(TestListByPersonalized.Select(d => new TestModel
+                {
+                    Testid = d.Testid,
+                    Personalized = d.Personalized,
+                    EspecialistId = d.EspecialistId,
+                    Testname = d.Testname
+
+                }));
+            }
+            else
+            {
+                return Ok("No hay test(s) para el Personalized.");
+            }
+        }
+
         // PUT: api/Tests/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
+        [HttpPut("Tests/{id}")]
         public async Task<IActionResult> PutTest(int id, [FromBody] UpdateTestModel model)
         {
             if (!ModelState.IsValid)
@@ -87,7 +111,7 @@ namespace Gocareer_backend.Controllers
 
         // POST: api/Tests
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
+        [HttpPost("Tests")]
         public async Task<IActionResult> PostTest([FromBody] CreateTestModel model)
         {
             if (!ModelState.IsValid)
@@ -113,7 +137,7 @@ namespace Gocareer_backend.Controllers
         }
 
         // DELETE: api/Tests/5
-        [HttpDelete("{id}")]
+        [HttpDelete("Tests/{id}")]
         public async Task<IActionResult> DeleteTest(int id)
         {
             var existingTest = await _context.Tests.FindAsync(id);
