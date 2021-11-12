@@ -45,6 +45,7 @@ namespace Gocareer_backend
             app.UseCors(options =>
             {
                 options.WithOrigins("http://localhost:4200");
+                options.WithOrigins("https://gocareer.herokuapp.com");
                 options.AllowAnyMethod();
                 options.AllowAnyHeader();
             });
